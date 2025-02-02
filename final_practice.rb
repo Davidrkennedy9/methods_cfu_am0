@@ -22,8 +22,13 @@ puts last_laugh
 # Use the puts or print command to see the return value in the console:
 
 # What is the return value of your method?
-# the return value is 
+
+#the reurn value is hello mike and hello dog
+
+# the return value is
+
 # How many arguments did you pass your method?
+# i passed two arguments
 
 def greeting(name)
   "hello, #{name}"
@@ -40,8 +45,25 @@ puts greeting("Dog")
 # Use the puts or print command to see the return value in the console:
 
 # What is the return value of your method?
+#  the return value is how do you do jacob and how do you do customer
 # How many arguments did you pass your method?
+#  i had two areguments
 # What data type was your argument(s)?
+# my data type was string
+
+
+
+def custom_greeting(name)
+  if name = name
+    "how do you do #{name}"
+  
+  end
+
+  
+end
+
+puts custom_greeting("jacob")
+puts custom_greeting("customer")
 
 
 # 3: Write a method named "greet_person" that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
@@ -55,8 +77,25 @@ puts greeting("Dog")
 # What data type was your argument(s)?
 
 
+def greet_person(first, mid, last)
+  "#{first} #{mid} #{last} how are you"
+
+end
+puts greet_person("david", "richard", "kennedy")
+
 # 4: Write a method named "square" that takes in one integer, and returns the square of that integer.
 
+
+def square(x)
+ Integer.sqrt(x)
+
+end
+puts square(64)
+def also_square(x)
+  x * x
+
+end
+puts also_square(64)
 # Call the method at least twice, and store the return value in a variable:
 
 # Use the puts or print command to see the return value in the console:
