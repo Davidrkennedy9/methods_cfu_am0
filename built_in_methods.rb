@@ -42,7 +42,7 @@ puts first_name.start_with?("J")
 
 # .delete_suffix removes specific chareicters from the string
 greeting = "hello"
-puts greeting.delete_suffix
+puts greeting.delete_suffix("llo")
 
 # .index returned 2 when looking at the integer index  and finding 2 ("g")s
 animal_description = "Big dog"
@@ -69,5 +69,14 @@ num2 =45
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+
+
+
+types_of_food = ["pasta", "sea food",]
+# cuts out elements form the array
+puts types_of_food.pop()
+# adds arguments to the array
+puts types_of_food.push("cheese", "lamp")
 
 
