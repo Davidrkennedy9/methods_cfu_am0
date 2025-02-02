@@ -7,22 +7,23 @@
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
 "Hello World".downcase
-# it changed all the chareicters in the sting to lowercase
+# it changed all the charictars in the sting to lowercase
 
 "Hello World".include?("Hello")
 # .include? checks the string to see if the argument is in the string
 
 "Hello World".end_with?("Hello")
-
+# .end_with? is checking to see if the string ends with the argument and it comes back false
 
 "Hello World".end_with?("rld")
-
+# .end_with? is checking to see if the string ends with the argument and it comes back true
 
 12.even?
+# .even? is returning a undefined method error
 
 
 18.next
-
+# .next changes the last charicter in the integer to next charicter in alphobetical order
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
@@ -39,7 +40,13 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# .delete_suffix removes specific chareicters from the string
+greeting = "hello"
+puts greeting.delete_suffix
 
+# .index returned 2 when looking at the integer index  and finding 2 ("g")s
+animal_description = "Big dog"
+puts animal_description.index("g")
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.

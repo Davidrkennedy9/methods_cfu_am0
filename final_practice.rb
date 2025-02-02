@@ -22,8 +22,16 @@ puts last_laugh
 # Use the puts or print command to see the return value in the console:
 
 # What is the return value of your method?
+# the return value is 
 # How many arguments did you pass your method?
 
+def greeting(name)
+  "hello, #{name}"
+  
+end
+
+puts greeting("mike")
+puts greeting("Dog")
 
 # 2: Write a method named "custom_greeting" that returns a greeting WITH a specific name.
 
