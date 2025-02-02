@@ -55,9 +55,19 @@ puts animal_description.index("g")
 # Include comments above each method call explaining the impact and return value of that method.
 
 
+# the .lcm returns the least common multiple between the two integers in this case it is 180
+num1 =12
+num2 =45
+12.lcm(45)
+# .succ adds one to the current integer
+45.succ
+
+
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+
